@@ -10,11 +10,14 @@
 		97ED9BB11B1F8A9A00706973 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97ED9BB01B1F8A9A00706973 /* main.m */; };
 		97ED9BB41B1F8A9A00706973 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97ED9BB31B1F8A9A00706973 /* AppDelegate.m */; };
 		97ED9BB71B1F8A9A00706973 /* BookClubChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 97ED9BB51B1F8A9A00706973 /* BookClubChallenge.xcdatamodeld */; };
-		97ED9BBA1B1F8A9A00706973 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97ED9BB91B1F8A9A00706973 /* ViewController.m */; };
 		97ED9BBD1B1F8A9A00706973 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97ED9BBB1B1F8A9A00706973 /* Main.storyboard */; };
 		97ED9BBF1B1F8A9A00706973 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97ED9BBE1B1F8A9A00706973 /* Images.xcassets */; };
 		97ED9BC21B1F8A9A00706973 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97ED9BC01B1F8A9A00706973 /* LaunchScreen.xib */; };
 		97ED9BCE1B1F8A9A00706973 /* BookClubChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97ED9BCD1B1F8A9A00706973 /* BookClubChallengeTests.m */; };
+		97ED9BD91B1F8C2800706973 /* RetiredFriends.m in Sources */ = {isa = PBXBuildFile; fileRef = 97ED9BD81B1F8C2800706973 /* RetiredFriends.m */; };
+		97ED9BDD1B1F8DED00706973 /* FriendsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97ED9BDC1B1F8DED00706973 /* FriendsTableViewController.m */; };
+		97ED9BE01B1F9C6700706973 /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = 97ED9BDF1B1F9C6700706973 /* Friend.m */; };
+		97ED9BE91B1FAE9D00706973 /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97ED9BE81B1FAE9D00706973 /* HomeTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +37,20 @@
 		97ED9BB21B1F8A9A00706973 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		97ED9BB31B1F8A9A00706973 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		97ED9BB61B1F8A9A00706973 /* BookClubChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BookClubChallenge.xcdatamodel; sourceTree = "<group>"; };
-		97ED9BB81B1F8A9A00706973 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		97ED9BB91B1F8A9A00706973 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		97ED9BBC1B1F8A9A00706973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97ED9BBE1B1F8A9A00706973 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		97ED9BC11B1F8A9A00706973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		97ED9BC71B1F8A9A00706973 /* BookClubChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookClubChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97ED9BCC1B1F8A9A00706973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97ED9BCD1B1F8A9A00706973 /* BookClubChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookClubChallengeTests.m; sourceTree = "<group>"; };
+		97ED9BD71B1F8C2800706973 /* RetiredFriends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RetiredFriends.h; sourceTree = "<group>"; };
+		97ED9BD81B1F8C2800706973 /* RetiredFriends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RetiredFriends.m; sourceTree = "<group>"; };
+		97ED9BDB1B1F8DED00706973 /* FriendsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsTableViewController.h; sourceTree = "<group>"; };
+		97ED9BDC1B1F8DED00706973 /* FriendsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsTableViewController.m; sourceTree = "<group>"; };
+		97ED9BDE1B1F9C6700706973 /* Friend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friend.h; sourceTree = "<group>"; };
+		97ED9BDF1B1F9C6700706973 /* Friend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Friend.m; sourceTree = "<group>"; };
+		97ED9BE71B1FAE9D00706973 /* HomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewController.h; sourceTree = "<group>"; };
+		97ED9BE81B1FAE9D00706973 /* HomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +92,14 @@
 		97ED9BAD1B1F8A9A00706973 /* BookClubChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				97ED9BE71B1FAE9D00706973 /* HomeTableViewController.h */,
+				97ED9BE81B1FAE9D00706973 /* HomeTableViewController.m */,
 				97ED9BB21B1F8A9A00706973 /* AppDelegate.h */,
 				97ED9BB31B1F8A9A00706973 /* AppDelegate.m */,
-				97ED9BB81B1F8A9A00706973 /* ViewController.h */,
-				97ED9BB91B1F8A9A00706973 /* ViewController.m */,
+				97ED9BDB1B1F8DED00706973 /* FriendsTableViewController.h */,
+				97ED9BDC1B1F8DED00706973 /* FriendsTableViewController.m */,
 				97ED9BBB1B1F8A9A00706973 /* Main.storyboard */,
+				97ED9BDA1B1F8C3000706973 /* modal */,
 				97ED9BBE1B1F8A9A00706973 /* Images.xcassets */,
 				97ED9BC01B1F8A9A00706973 /* LaunchScreen.xib */,
 				97ED9BB51B1F8A9A00706973 /* BookClubChallenge.xcdatamodeld */,
@@ -120,6 +132,17 @@
 				97ED9BCC1B1F8A9A00706973 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		97ED9BDA1B1F8C3000706973 /* modal */ = {
+			isa = PBXGroup;
+			children = (
+				97ED9BDE1B1F9C6700706973 /* Friend.h */,
+				97ED9BDF1B1F9C6700706973 /* Friend.m */,
+				97ED9BD71B1F8C2800706973 /* RetiredFriends.h */,
+				97ED9BD81B1F8C2800706973 /* RetiredFriends.m */,
+			);
+			name = modal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,8 +246,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				97ED9BB41B1F8A9A00706973 /* AppDelegate.m in Sources */,
+				97ED9BE01B1F9C6700706973 /* Friend.m in Sources */,
 				97ED9BB11B1F8A9A00706973 /* main.m in Sources */,
-				97ED9BBA1B1F8A9A00706973 /* ViewController.m in Sources */,
+				97ED9BE91B1FAE9D00706973 /* HomeTableViewController.m in Sources */,
+				97ED9BDD1B1F8DED00706973 /* FriendsTableViewController.m in Sources */,
+				97ED9BD91B1F8C2800706973 /* RetiredFriends.m in Sources */,
 				97ED9BB71B1F8A9A00706973 /* BookClubChallenge.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +446,7 @@
 				97ED9BD31B1F8A9A00706973 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		97ED9BD41B1F8A9A00706973 /* Build configuration list for PBXNativeTarget "BookClubChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +455,7 @@
 				97ED9BD61B1F8A9A00706973 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
